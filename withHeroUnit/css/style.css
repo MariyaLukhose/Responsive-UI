@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+}
+/* Header Part CSS */
+.header-container{
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    border-bottom:2px solid coral;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    animation: move 4s ease;
+}
+@keyframes move {
+    0%{ top: 0px;
+        transform: translateY(-100%);}
+}
+.branding img{
+    height: 8vh;
+    padding: 0.4em;
+}
+.nav ul li{
+    display: inline;
+    padding: 2em;
+    font-size: 15px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0.6em;
+}
+.nav ul li a:hover{
+    color: coral;
+    border-bottom: 2px solid coral;
+}
+.signup{
+    background-color: white;
+    color:black;
+    border: 2px solid coral;
+    border-radius: 5px;
+    height: 6vh;
+    width: 8vw;
+}
+.signup:hover{
+    background-color: coral;
+    color:white;
+}
+.hero{
+    background: url("../images/bg1.jpg")no-repeat;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    height: 100vh;
+}
+/* .hero-mask{
+    height: 100vh;
+    background-color:rgb(0, 0,0, 0.1);
+} */
+.hero-mask h1{
+    margin: 0;
+    color: #003d99; 
+    font-weight: 900;
+    font-size: xx-large;
+    text-shadow: -2px 2px 2px white;
+}
+
+.hero-mask a{
+    text-decoration: none;
+    color: white;
+    background-color: coral;
+    padding: 1em;
+    border-radius: 5px;
+    display: flex;
+    margin: 1em auto;
+    width: 10vw;
+    justify-content: space-around;
+}
+.hero-mask a:hover{
+    background-color: white;
+    color: coral;
+}
+.paperlayout{
+    display: flex;
+    flex-direction: column;  
+}
+@media(max-width: 50vw){
+    .paper{
+        flex:100%;
+    }
+}
+.paperlayout h1{
+    font-size: 1em;
+    color: #444;
+    margin: 1em auto;
+}
+.paper{
+    box-shadow: 5px 5px 20px grey;
+    padding: 1em;
+}
+.paperflex{
+    display: flex;
+    flex-direction: row;
+    padding:1em;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.paper h2{
+    font-size: 1em;
+    color: black;
+}
+.paper img{
+    height:200px;
+    width: 200px;
+}
+.paper p{
+    font-size: 0.8em;
+    color:black;
+    font-weight: 500;
+
+}
+footer{
+    height:12vh;
+    background-color: black;
+    color: white;
+    border-top: 2px solid coral;
+    text-align: center;
+    font-size: 12px;
+    padding: 2em;
+}
+/* SignIn Page */
+.signin{
+    background-color: white;
+    color:black;
+    border: 2px solid coral;
+    border-radius: 5px;
+    height: 6vh;
+    width: 8vw;
+}
+.signin:hover{
+    background-color: coral;
+    color:white;
+}
+.appleID{
+    padding:6vh;
+    justify-content: space-around;
+    text-align: center;
+}
+.appleID h1{
+    font-size: xx-large;
+}
+.appleID p{
+    font-size: large;
+    margin: 0;
+}
+.formCont{
+    padding: 1em;
+}
+.name{
+    margin: 0.5em auto;
+}
+.email{
+    font-size: x-small;
+    padding-top: 1em;
+}
+
+.email p{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.pwd{
+    padding-top: 1em;
+}
+.button input{
+    margin: 1em auto;
+    width: 7vw;
+}
+footer{
+    bottom: 0;
+    position: relative;
+    width: 100vw;
+}

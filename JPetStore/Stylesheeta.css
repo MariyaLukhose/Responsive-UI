@@ -1,0 +1,281 @@
+
+/*=========Overall control section=========*/
+
+body{
+	background-color:rgb(64, 64, 64); 
+	margin:6%;
+	margin-top:0px;
+	font-family:verdana,georgia,serif;
+	font-size:14px;
+}
+/*=========Index page=============*/
+#index
+{
+	background-color:white;
+	margin:10px;
+	padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-weight: bold;*/
+}
+#index h1
+{
+    color:rgb(64, 64, 64); 
+}
+#link a
+{
+    color:blue; 
+    font-size: 17px;
+}
+#copy
+{
+    color:rgb(64, 64, 64); 
+    font-size: 12px;
+}
+
+/*=========Header section=========*/
+
+#header{
+	background-color:black;  
+	margin:10px;
+	height:80px;
+	border-radius:2px;
+}
+
+#searchButton {
+	color:orange;
+	background-color:gray;
+	border: 1px solid white;
+}
+
+#logInButton{
+	color:White;
+	background-color:Green;
+	border: 1px solid white;
+	margin-left:5%;
+}
+
+#RegButton{
+	color:White;
+	background-color:Green;
+	border: 1px solid white;
+	margin-left:42%;
+}
+
+#cartButton{
+	color:White;
+	background-color:Green;
+	border: 1px solid white;
+}
+
+#searchBar{
+	margin-left:25%;
+	background-color:gray;
+	width:25%;
+    border: 1px solid white;
+}
+
+#RegInputField{
+	background-color:white;
+	width:98%;
+    border: 1px solid black;
+}
+
+/*=========Navigation Bar section=========*/
+
+#navbar ul{
+	background-color:#000;
+	border-radius:2px;
+	margin-left:38%;
+	padding-top:3%;
+}
+
+#navbar ul li{
+	display:inline;
+}
+
+#navbar ul li a{
+	background-color:#000;
+	color:orange;
+	margin:3px;
+	text-align:center;
+	text-decoration: none;
+}
+
+#navbar ul li a:hover{
+color:Green;
+}
+
+#mainBody{
+	background-color:white;
+	margin:10px;
+	margin-top:0px;
+	text-align:center;
+	list-style-type:none;
+	padding:10px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other for mainmenu*/
+.mainMenuDiv1 {
+  float: left;
+  width: 35%;
+  height:300px;
+  padding: 10px;
+  background-color:white;
+  margin:10px;
+  margin-right:0px;
+  margin-top:0px;
+}
+
+.mainMenuDiv2 {
+  float: left;
+  width: 63.19%;
+  padding: 10px;
+  height:300px;
+  background-color:white;
+  margin:10px;
+  margin-left:0px;
+  margin-top:0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#TableBody{
+	background-color:white;
+	margin:10px;
+	margin-top:0px;
+	padding:10px;
+}
+
+#menubar ul{
+	background-color:white;
+	margin:10px;
+	text-align:center;
+	list-style-type:none;
+	padding:10px;
+}
+
+#menubar ul li{
+	display:inline;
+}
+
+#menubar ul li a{
+	color:Black;
+	margin:1px;
+	text-align:center;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: italic;
+	font-family:georgia;
+}
+
+#mainMenuSidebar{
+	color:black;
+	margin:1px;
+	text-align:left;
+	font-weight: bold;
+	font-style: italic;
+	font-family:georgia;
+	font-size:17px;
+}
+
+#mainMenuSidebarDesc{
+	color:black;
+	margin:1px;
+	text-align:left;
+	font-family:georgia;
+}
+
+#menubar ul li a:hover{
+	background-color:#fff;
+	color:Green;
+}
+
+#itemHeading{
+	 margin-left:35%;
+	 font-weight: bold;
+	 font-size: 150%;
+}
+
+/*=========Table section=========*/
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 20%;
+  margin-left:35%;
+  
+}
+
+td, th {
+  border: 3px solid white;
+  text-align: left;
+  padding: 1.5%;
+}
+
+tr{
+  background-color: #dddddd;
+}
+
+#tableDetails {
+  width: 40%;
+}
+
+#RegTable{
+  width: 29%;
+  align:center;
+  font-family:verdana;
+  font-size:12px;
+  padding: 0px;
+}
+
+#RegTable2{
+  width: 35%;
+  margin-left:32%;
+  font-family:verdana;
+  font-size:12px;
+  padding: 0px;
+}
+
+#CartTable{
+  width: 55%;
+  margin-left:30%;
+  font-family:verdana;
+  font-size:9px;
+}
+
+/*=========Footer section=========*/
+
+#footer{
+	margin:10px;	
+	background-color:black;
+	padding:10px;
+	vertical-align: top;
+	margin-top:-10px;
+}
+
+/*=========Logo appending=========*/
+
+img{
+	padding-top:8px;
+	max-width:80%;
+	max-height:80%;
+	float:left;
+}
+
+div{
+  padding:0px;
+  margin-bottom:-10px;
+  margin-top:-10px;
+}
+
+a{
+	text-decoration: none;
+}
